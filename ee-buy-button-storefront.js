@@ -12968,9 +12968,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
     if (unitEnum === 'L') {
       return 'L';
     } else if (unitEnum === 'M3') {
-      return 'mÂ³';
+      return 'm³';
     } else if (unitEnum === 'M2') {
-      return 'mÂ²';
+      return 'm²';
     } else {
       return unitEnum.toLowerCase();
     }
@@ -16700,7 +16700,7 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
   })('versions', []).push({
     version: '3.1.3',
     mode:  'global',
-    copyright: 'Â© 2019 Denis Pushkarev (zloirock.ru)'
+    copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
   });
   });
 
