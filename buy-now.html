@@ -1,0 +1,332 @@
+<div id='collection-component-1587736718861'></div>
+<script type="text/javascript">
+    /*<![CDATA[*/
+    (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+            if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+            } else {
+                loadScript();
+            }
+        } else {
+            loadScript();
+        }
+
+        function loadScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = scriptURL;
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+            script.onload = ShopifyBuyInit;
+        }
+
+        function ShopifyBuyInit() {
+            var client = ShopifyBuy.buildClient({
+                domain: 'nayakspa.myshopify.com',
+                storefrontAccessToken: '4565279cabcfa2e7d8c0cb62809d9da9',
+            });
+            ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('collection', {
+                    "id":"158412210291",
+                    node: document.getElementById('collection-component-1587736718861'),
+                    "moneyFormat":"%24%7B%7Bamount%7D%7D",
+                    "options":{
+                        "product":{
+                            "styles":{
+                                "product":{
+                                "@media (min-width: 601px)":{
+                                    "max-width":"calc(25% - 20px)",
+                                    "margin-left":"20px",
+                                    "margin-bottom":"50px",
+                                    "width":"calc(25% - 20px)"
+                                },
+                                "img":{
+                                    "height":"calc(100% - 15px)",
+                                    "position":"absolute",
+                                    "left":"0",
+                                    "right":"0",
+                                    "top":"0"
+                                },
+                                "imgWrapper":{
+                                    "padding-top":"calc(75% + 15px)",
+                                    "position":"relative",
+                                    "height":"0"
+                                }
+                                },
+                                "title":{
+                                "font-family":"Candara, sans-serif",
+                                "font-weight":"normal"
+                                },
+                                "button":{
+                                "font-family":"Candara, sans-serif",
+                                "font-size":"18px",
+                                "padding-top":"17px",
+                                "padding-bottom":"17px",
+                                "color":"#66030a",
+                                ":hover":{
+                                    "color":"#66030a",
+                                    "background-color":"#d4cecb"
+                                },
+                                "background-color":"#ece5e2",
+                                ":focus":{
+                                    "background-color":"#d4cecb"
+                                },
+                                "border-radius":"6px",
+                                "padding-left":"15px",
+                                "padding-right":"15px"
+                                },
+                                "quantityInput":{
+                                "font-size":"18px",
+                                "padding-top":"17px",
+                                "padding-bottom":"17px"
+                                },
+                                "price":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "compareAt":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "unitPrice":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "description":{
+                                "font-family":"Droid Sans, sans-serif"
+                                }
+                            },
+                            "buttonDestination":"modal",
+                            "contents":{
+                                "options":false
+                            },
+                            "text":{
+                                "button":"View product"
+                            },
+                            "googleFonts":[
+                                "Droid Sans"
+                            ]
+                        },
+                        "productSet":{
+                            "styles":{
+                                "products":{
+                                "@media (min-width: 601px)":{
+                                    "margin-left":"-20px"
+                                }
+                                }
+                            }
+                        },
+                        "modalProduct":{
+                            "contents":{
+                                "img":false,
+                                "imgWithCarousel":true,
+                                "button":false,
+                                "buttonWithQuantity":true
+                            },
+                            "styles":{
+                                "product":{
+                                "@media (min-width: 601px)":{
+                                    "max-width":"100%",
+                                    "margin-left":"0px",
+                                    "margin-bottom":"0px"
+                                }
+                                },
+                                "button":{
+                                "font-family":"Candara, sans-serif",
+                                "font-size":"18px",
+                                "padding-top":"17px",
+                                "padding-bottom":"17px",
+                                "color":"#66030a",
+                                ":hover":{
+                                    "color":"#66030a",
+                                    "background-color":"#d4cecb"
+                                },
+                                "background-color":"#ece5e2",
+                                ":focus":{
+                                    "background-color":"#d4cecb"
+                                },
+                                "border-radius":"6px",
+                                "padding-left":"15px",
+                                "padding-right":"15px"
+                                },
+                                "quantityInput":{
+                                "font-size":"18px",
+                                "padding-top":"17px",
+                                "padding-bottom":"17px"
+                                },
+                                "title":{
+                                "font-family":"Candara, sans-serif",
+                                "font-weight":"normal"
+                                },
+                                "price":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "compareAt":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "unitPrice":{
+                                "font-family":"Droid Sans, sans-serif",
+                                "color":"#66030a"
+                                },
+                                "description":{
+                                "font-family":"Droid Sans, sans-serif"
+                                }
+                            },
+                            "googleFonts":[
+                                "Droid Sans"
+                            ]
+                        },
+                        "option":{
+                            "styles":{
+                                "label":{
+                                "font-family":"Droid Sans, sans-serif"
+                                },
+                                "select":{
+                                "font-family":"Droid Sans, sans-serif"
+                                }
+                            },
+                            "googleFonts":[
+                                "Droid Sans"
+                            ]
+                        },
+                        "cart":{
+                            "styles":{
+                                "button":{
+                                "font-family":"Candara, sans-serif",
+                                "font-size":"18px",
+                                "padding-top":"17px",
+                                "padding-bottom":"17px",
+                                "color":"#66030a",
+                                ":hover":{
+                                    "color":"#66030a",
+                                    "background-color":"#d4cecb"
+                                },
+                                "background-color":"#ece5e2",
+                                ":focus":{
+                                    "background-color":"#d4cecb"
+                                },
+                                "border-radius":"6px"
+                                },
+                                "title":{
+                                "color":"#4c4c4c"
+                                },
+                                "header":{
+                                "color":"#4c4c4c"
+                                },
+                                "lineItems":{
+                                "color":"#4c4c4c"
+                                },
+                                "subtotalText":{
+                                "color":"#4c4c4c"
+                                },
+                                "subtotal":{
+                                "color":"#4c4c4c"
+                                },
+                                "notice":{
+                                "color":"#4c4c4c"
+                                },
+                                "currency":{
+                                "color":"#4c4c4c"
+                                },
+                                "close":{
+                                "color":"#4c4c4c",
+                                ":hover":{
+                                    "color":"#4c4c4c"
+                                }
+                                },
+                                "empty":{
+                                "color":"#4c4c4c"
+                                },
+                                "noteDescription":{
+                                "color":"#4c4c4c"
+                                },
+                                "discountText":{
+                                "color":"#4c4c4c"
+                                },
+                                "discountIcon":{
+                                "fill":"#4c4c4c"
+                                },
+                                "discountAmount":{
+                                "color":"#4c4c4c"
+                                }
+                            },
+                            "text":{
+                                "notice":"Shipping is calculated at checkout.",
+                                "button":"CHECKOUT NOW"
+                            },
+                            "contents":{
+                                "note":true
+                            },
+                            "popup":false
+                        },
+                        "toggle":{
+                            "styles":{
+                                "toggle":{
+                                "font-family":"Candara, sans-serif",
+                                "background-color":"#ece5e2",
+                                ":hover":{
+                                    "background-color":"#d4cecb"
+                                },
+                                ":focus":{
+                                    "background-color":"#d4cecb"
+                                }
+                                },
+                                "count":{
+                                "font-size":"18px",
+                                "color":"#66030a",
+                                ":hover":{
+                                    "color":"#66030a"
+                                }
+                                },
+                                "iconPath":{
+                                "fill":"#66030a"
+                                }
+                            }
+                        },
+                        "lineItem":{
+                            "styles":{
+                                "variantTitle":{
+                                "color":"#4c4c4c"
+                                },
+                                "title":{
+                                "color":"#4c4c4c"
+                                },
+                                "price":{
+                                "color":"#4c4c4c"
+                                },
+                                "fullPrice":{
+                                "color":"#4c4c4c"
+                                },
+                                "discount":{
+                                "color":"#4c4c4c"
+                                },
+                                "discountIcon":{
+                                "fill":"#4c4c4c"
+                                },
+                                "quantity":{
+                                "color":"#4c4c4c"
+                                },
+                                "quantityIncrement":{
+                                "color":"#4c4c4c",
+                                "border-color":"#4c4c4c"
+                                },
+                                "quantityDecrement":{
+                                "color":"#4c4c4c",
+                                "border-color":"#4c4c4c"
+                                },
+                                "quantityInput":{
+                                "color":"#4c4c4c",
+                                "border-color":"#4c4c4c"
+                                }
+                            }
+                        }
+                    }
+                });
+            });
+        }
+    })();
+    /*]]>*/
+</script>
