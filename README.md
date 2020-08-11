@@ -1,4 +1,4 @@
-# Electric Eye Buy Now Button w/ Storefront
+# Electric Eye Buy Now Button w/ Storefront - Add Preorder Support
 
 This repo is a fork of [Shopfy's BuyButton.js](https://shopify.github.io/buy-button-js/)
 that provides support for displaying "preorder" status for products
