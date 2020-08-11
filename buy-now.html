@@ -2,7 +2,7 @@
 <script type="text/javascript">
     /*<![CDATA[*/
     (function () {
-        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        var scriptURL = 'https://assets.codepen.io/241793/ee-buy-button-storefront.js';
         if (window.ShopifyBuy) {
             if (window.ShopifyBuy.UI) {
                 ShopifyBuyInit();
@@ -24,7 +24,7 @@
         function ShopifyBuyInit() {
             var client = ShopifyBuy.buildClient({
                 domain: 'nayakspa.myshopify.com',
-                storefrontAccessToken: '4565279cabcfa2e7d8c0cb62809d9da9',
+                storefrontAccessToken: '2b925720ef18a9dccf4ab9b916ff2322',
             });
             ShopifyBuy.UI.onReady(client).then(function (ui) {
                 ui.createComponent('collection', {

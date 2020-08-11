@@ -2578,6 +2578,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -2710,6 +2713,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -2846,6 +2852,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -2991,6 +3000,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -3293,6 +3305,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -3511,6 +3526,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -3686,6 +3704,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -4146,6 +4167,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -4464,6 +4488,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -4801,6 +4828,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -5140,6 +5170,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -5478,6 +5511,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -5808,6 +5844,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -6147,6 +6186,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -6485,6 +6527,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -6822,6 +6867,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -7158,6 +7206,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -7497,6 +7548,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -7835,6 +7889,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("availableForSale", {
         alias: "available"
       });
+      root.add("quantityAvailable", {
+        alias: "quantity"
+      });
       root.add("sku");
       root.add("compareAtPrice");
       root.add("compareAtPriceV2", function (compareAtPriceV2) {
@@ -8172,6 +8229,9 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("weight");
       root.add("availableForSale", {
         alias: "available"
+      });
+      root.add("quantityAvailable", {
+        alias: "quantity"
       });
       root.add("sku");
       root.add("compareAtPrice");
@@ -9550,6 +9610,7 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
     "kind": "OBJECT",
     "fieldBaseTypes": {
       "availableForSale": "Boolean",
+      "quantityAvailable": "Int",
       "compareAtPrice": "Money",
       "compareAtPriceV2": "MoneyV2",
       "id": "ID",
@@ -10077,6 +10138,7 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       text: {
         button: 'ADD TO CART',
         outOfStock: 'Out of stock',
+        preorder: 'Preorder',
         unavailable: 'Unavailable',
         unitPriceAccessibilityLabel: 'Unit price',
         unitPriceAccessibilitySeparator: 'per'
@@ -13856,6 +13918,10 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
           return this.options.text.unavailable;
         }
 
+        if (this.variantPreorder) {
+          return this.options.text.preorder;
+        }
+
         if (!this.variantInStock) {
           return this.options.text.outOfStock;
         }
@@ -13884,6 +13950,11 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       key: "variantInStock",
       get: function get() {
         return this.variantExists && this.selectedVariant.available;
+      }
+    }, {
+      key: "variantPreorder",
+      get: function get() {
+        return this.variantExists && this.selectedVariant.available && this.selectedVariant.quantity <= 0;
       }
     }, {
       key: "hasVariants",
