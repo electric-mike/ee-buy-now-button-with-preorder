@@ -13977,7 +13977,7 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       get: function get() {
         return this.variantExists 
         && this.selectedVariant.available 
-        && !this.selectedVariant.currentlyNotInStock 
+        && this.selectedVariant.currentlyNotInStock 
         && this.selectedVariant.quantity <= 0;
       }
     }, {
