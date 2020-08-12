@@ -9690,6 +9690,11 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
     "implementsNode": false
   };
 
+  var ProductVariantInventoryPolicy = {
+    "name": "ProductVariantInventoryPolicy",
+    "kind": "ENUM"
+  };
+
   var ProductVariantPricePairEdge = {
     "name": "ProductVariantPricePairEdge",
     "kind": "OBJECT",
@@ -9888,6 +9893,7 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
   Types.types["ProductVariantEdge"] = ProductVariantEdge;
   Types.types["ProductVariantPricePair"] = ProductVariantPricePair;
   Types.types["ProductVariantPricePairConnection"] = ProductVariantPricePairConnection;
+  Types.types["ProductVariantInventoryPolicy"] = ProductVariantInventoryPolicy;
   Types.types["ProductVariantPricePairEdge"] = ProductVariantPricePairEdge;
   Types.types["QueryRoot"] = QueryRoot;
   Types.types["ScriptDiscountApplication"] = ScriptDiscountApplication;
