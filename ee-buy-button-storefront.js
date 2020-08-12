@@ -9630,7 +9630,8 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
     "kind": "OBJECT",
     "fieldBaseTypes": {
       "availableForSale": "Boolean",
-      "quantityAvailable": "Int",
+      "quantityAvailable": "ProductVariantInventoryPolicy",
+      "inventoryPolicy": "Int",
       "compareAtPrice": "Money",
       "compareAtPriceV2": "MoneyV2",
       "id": "ID",
