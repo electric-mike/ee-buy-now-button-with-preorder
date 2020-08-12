@@ -2581,7 +2581,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -2719,7 +2718,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -2860,7 +2858,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -3010,7 +3007,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -3316,7 +3312,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -3539,7 +3534,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -3720,7 +3714,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -4184,7 +4177,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -4508,7 +4500,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -4850,7 +4841,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -5193,7 +5183,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -5536,7 +5525,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -5872,7 +5860,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -6215,7 +6202,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -6558,7 +6544,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -6900,7 +6885,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -7242,7 +7226,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -7585,7 +7568,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -7928,7 +7910,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -8271,7 +8252,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       root.add("quantityAvailable", {
         alias: "quantity"
       });
-      root.add("inventoryManagement");
       root.add("inventoryPolicy");
       root.add("sku");
       root.add("compareAtPrice");
@@ -13996,7 +13976,6 @@ var buybutton_umd = createCommonjsModule(function (module, exports) {
       get: function get() {
         return this.variantExists 
         && this.selectedVariant.available 
-        && this.selectedVariant.inventoryManagement == 'shopify' 
         && this.selectedVariant.inventoryPolicy == 'continue' 
         && this.selectedVariant.quantity <= 0;
       }
